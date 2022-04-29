@@ -4,6 +4,10 @@ image:
 ports:
     - port: 3000
       onOpen: ignore
+      visibility: public
+    - port: 3245
+      onOpen: open-browser
+      visibility: public
 
 vscode:
   extensions:
